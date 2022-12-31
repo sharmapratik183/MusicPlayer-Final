@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e178782a14.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href = "major project.css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="Photos/cool-avatar-transparent-image-cool-boy-avatar-11562893383qsirclznyw.png">
+        <title>
+            My Music Player
+        </title>
+    </head>
+    <body>
+        <!-- Main Header (Fixed) -->
+        <header id = "main-header" class = "display-flex">
+            <div id = "header-content" class = "display-flex">
+
+                <div id = "spotify-icon" class = "color-white">
+                    <a href = "#"><i class="fab fa-spotify"></i></a>
+                </div>
+                <nav id = "nav-bar" class = "display-flex">
+                    <div id = "favourites" class = "color-white">
+                        <a href = "#" >Favourites</a> 
+                    </div>
+                    <div id = "search-bar" class = "display-flex">
+                        <button type = "submit" name = "search" id = "search-icon"><i class="fas fa-search"></i></button>
+                        <input name = "search" type = "header-search" placeholder="Search" >
+                        <button id = "search-mic"><i class="fas fa-microphone"></i></button>
+                    </div>
+                </nav>
+
+                <div id = "bell-icon">
+                    <button type ="button" name = "notifications"><i class="fas fa-bell"></i></button>
+                </div>
+
+                <div id = "my-profile">
+                    <a href = "#" ><img src="Photos/cool-avatar-transparent-image-cool-boy-avatar-11562893383qsirclznyw.png"></a>
+                </div>
+
+            </div>
+
+        </header>
+
+            <!-- Main Content -->
+
+            <section class = "content display-flex">
+
+
+                <main id = "main-section">
+
+                    <br>
+                         <!-- Banners Section -->
+                    <section id = "banners-section">
+
+                        <div class = "banner" id = "banner1">
+                            
+                            <img src = "Photos/banner1.webp">
+                        </div>
+
+                        <div class = "banner" id = "banner2">
+                            <img src = "Photos/Banner2.webp">
+                            
+                        </div>
+
+                        <div class = "banner" id = "banner3">
+                            <img src = "Photos/banner3.webp">
+                            
+                        </div>
+       
+                    </section>
+
+                    <!-- Latest Release Section -->
+
+                    <section id = "latest-release" class = "color-white display-flex">
+
+                         <div class = "section-heading">
+                             <span>Latest Release</span>
+                         </div>
+
+                         <div id = "latest-release-content" class="display-flex">
+
+                            <div class = "latest-release-item display-flex">
+                                <a href="#player" class="display-flex">
+                                    
+                                      <div class = "song-image">
+                                         <img src = "Photos/latest-release-image1.webp">
+                                         <div  class = "position-absolute display-flex play-icon">
+                                           <i id ="4" class="fas fa-play songItemPlay"></i>
+                                         </div>
+                                     </div>
+                                    <div class = "song-details">
+                                        <span class = "song-name">Raataan Lambiyan</span><br>
+                                        <span class = "date">aug 15,2021</span>
+                                    </div>
+                                </a>
+
+                                    <div class = "three-dots">
+                                        <button type="button" class="options-btn">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </button>
+                                        <div class = "options">
+                                            <a href ="#player" class = "options-item">
+                                                <i class="fas fa-play"></i> Play Now<br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-plus"></i> Add to Queue <br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-folder-plus"></i> Add to Favourites <br>
+
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-info-circle"></i> Get Info 
+
+                                            </a>
+                                        </div>
+                                        <span>3:44</span>
+                                    </div>
+                            </div>
+
+                            <div class = "latest-release-item display-flex">
+                                <a href="#player" class="display-flex">
+                                    
+                                     <div class = "song-image">
+                                        <img src = "Photos/latest-release-image2.webp">
+                                        <div  class = "position-absolute display-flex play-icon">
+                                          <i id = "2" class="fas fa-play songItemPlay"></i>
+                                        </div>
+                                     </div>
+                                    <div class = "song-details">
+                                        <span class = "song-name">Ranjha</span><br>
+                                        <span class = "date">aug 15,2021</span>
+                                    </div>
+                                    </a>
+
+                                    <div class = "three-dots">
+                                        <button type="button" class="options-btn">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </button>
+                                        <div class = "options">
+                                            <a href ="#player" class = "options-item">
+                                                <i class="fas fa-play"></i> Play Now<br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-plus"></i> Add to Queue <br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-folder-plus"></i> Add to Favourites <br>
+
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-info-circle"></i> Get Info 
+
+                                            </a>
+                                        </div>
+                                        <span>3:44</span>
+                                    </div>
+                                
+                            </div>
+
+                            <div class = "latest-release-item display-flex">
+                                <a href="#player" class="display-flex">
+                                    
+                                    <div class = "song-image">
+                                        <img src = "Photos/latest-release-image3.webp">
+                                        <div  class = "position-absolute display-flex play-icon">
+                                         <i id = "1" class="fas fa-play songItemPlay"></i>
+                                      </div>
+                                     </div>
+                                    <div class = "song-details">
+                                        <span class = "song-name">Mann Bharryaa</span><br>
+                                        <span class = "date">aug 15,2021</span>
+                                    </div>
+                                    </a>
+
+                                    <div class = "three-dots">
+                                        <button type="button" class="options-btn">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </button>
+                                        <div class = "options">
+                                            <a href ="#player" class = "options-item">
+                                                <i class="fas fa-play"></i> Play Now<br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-plus"></i> Add to Queue <br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-folder-plus"></i> Add to Favourites <br>
+
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-info-circle"></i> Get Info 
+
+                                            </a>
+                                        </div>
+                                        <span>3:44</span>
+                                    </div>
+                                
+                            </div>
+
+                            <div class = "latest-release-item display-flex">
+                                <a href="#player" class="display-flex">
+                                    
+                                    <div class = "song-image">
+                                        <img src = "Photos/yaarana.webp">
+                                        <div  class = "position-absolute display-flex play-icon">
+                                         <i id = "11" class="fas fa-play songItemPlay"></i>
+                                      </div>
+                                     </div>
+                                    <div class = "song-details">
+                                        <span class = "song-name">Tere Jaisa Yaar Kahan</span><br>
+                                        <span class = "date">Kishor Kumar</span>
+                                    </div>
+                                    </a>
+
+                                    <div class = "three-dots">
+                                        <button type="button" class="options-btn">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </button>
+                                        <div class = "options">
+                                            <a href ="#player" class = "options-item">
+                                                <i class="fas fa-play"></i> Play Now<br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-plus"></i> Add to Queue <br>
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-folder-plus"></i> Add to Favourites <br>
+
+                                            </a>
+                                            <hr>
+                                            <a href = "#" class = "options-item">
+                                                <i class="fas fa-info-circle"></i> Get Info 
+
+                                            </a>
+                                        </div>
+                                        <span>3:44</span>
+                                    </div>
+                                
+                            </div>
+
+                         </div>
+                    </section>
+
+                    <!-- Popular Artists Section -->
+
+                    <section id = "popular-artists">
+
+                        <div class="section-heading color-white">
+                            <span>Popular Artists</span>
+                        </div>
+
+                        <div id = "popular-artists-display">
+
+                            <div class = "artist-image position-relative">
+                                <a href = "Major Project2.html">
+                                  <img src = "Photos/badshah.webp">
+                                  <div  class = "position-absolute display-flex play-icon">
+                                    <i class="fas fa-play"></i>
+                                 </div>
+                                </a>
+                                  <span class = "img-description"> Badshah</span>
+                            </div>
+                            <div class = "artist-image">
+                                <a href = "Major Project2.html">
+                                 <img src = "Photos/arijit-singh.webp">
+                                 <div  class = "position-absolute display-flex play-icon">
+                                    <i class="fas fa-play"></i>
+                                 </div>
+                                </a>
+                                <span class = "img-description"> Arijit Singh</span>
+                            </div>
+                            <div class = "artist-image">
+                              <a href = "Major Project2.html">
+                               <img src = "Photos/neha kakkar.webp">
+                               <div  class = "position-absolute display-flex play-icon">
+                                <i class="fas fa-play"></i>
+                             </div>
+                              </a>
+                              <span class = "img-description"> Neha Kakkar</span>
+                            </div>
+                             <div class = "artist-image">
+                             <a href = "Major Project2.html">
+                             <img src = "Photos/honey singh.webp">
+                             <div  class = "position-absolute display-flex play-icon">
+                                <i class="fas fa-play"></i>
+                             </div>
+                             </a>
+                             <span class = "img-description"> Honey Singh</span>
+                            </div>
+
+                            <div class = "artist-image">
+                                <a href ="Major Project2.html">
+                                <img src = "Photos/Pritam.webp">
+                                <div  class = "position-absolute display-flex play-icon">
+                                    <i class="fas fa-play"></i>
+                                 </div>
+                                </a>
+                                <span class = "img-description"> Pritam</span>
+                           </div>
+                        </div>
+
+                    </section>
+
+                    <!-- Stations Section -->
+
+                    <section id = "stations">
+
+                        <div id = "stations-image">
+                            <a href = "#">
+                            <img src = "Photos/Music-to-your-mood.jpg">
+                            </a>
+                        </div>
+
+                        <div class=  "station-type">
+                            <a href = "#">
+                            <img src = "Photos/party-music.webp">
+                            </a>
+                        </div>
+
+                        <div class=  "station-type">
+                            <a href = "#">
+                            <img src = "Photos/chill-music.webp">
+                            </a>
+                        </div>
+
+                        <div class=  "station-type">
+                            <a href="#">
+                            <img src = "Photos/happy-feels.webp">
+                            </a>
+                        </div>
+                           
+                    </section>
+
+                    <section id = "per">
+
+                        <div class = "per-image">
+                            <a href="#">
+                                <span class = "per-img-description"> Party </span>
+                            <img src = "Photos/per-party.jpg">
+                           
+                            </a>
+                        </div>
+
+                        <div class = "per-image">
+                            <a href = "#">
+                             <span class = "per-img-description"> Electronic </span>
+                            <img src = "Photos/per-electronic.jpg">
+                           
+                            </a>
+                        </div>
+
+                        <div class = "per-image">
+                            <a href="#">
+                                <span class = "per-img-description"> Road Trip </span>
+                            <img src = "Photos/per-roadtrip.jpg">
+                           
+                            </a>
+                        </div>
+
+
+
+                    </section>
+
+                    <!-- Latest English Section -->
+
+                    <section id = "latest-english" class="display-flex">
+                          <div class="section-heading">
+                              <span>Latest English</span>
+                          </div>
+                          <div class = "latest-content display-flex">
+
+                             <div class = "latest-english-item">
+                                 <img src = "Photos/latest-english-industry-baby.webp">
+                                 <span class = "latest-song-details">
+                                     <span class = "song-name color-white">Industry Baby</span><br>
+                                     <span class = "date">aug 17, 2021</span>
+                                 </span>
+                             </div>
+
+                             <div class = "latest-english-item">
+                                <img src = "Photos/latest-english2.webp">
+                                <span class = "latest-song-details">
+                                    <span class = "song-name color-white">In Da Getto</span><br>
+                                    <span class = "date">aug 17, 2021</span>
+                                </span>
+                             </div>
+
+                             <div class = "latest-english-item">
+                                <img src = "Photos/latest-english3.webp">
+                                <span class = "latest-song-details">
+                                    <span class = "song-name color-white">Bum Bum Tam Tam</span><br>
+                                    <span class = "date">aug 17, 2021</span>
+                                </span>
+                             </div>
+
+                             <div class = "latest-english-item">
+                                <img src = "Photos/latest-english4.webp">
+                                <span class = "latest-song-details">
+                                    <span class = "song-name color-white">Shaky Shaky</span><br>
+                                    <span class = "date">aug 17, 2021</span>
+                                </span>
+                             </div>
+
+                             <div class = "latest-english-item">
+                                <img src = "Photos/latest-english5.webp">
+                                <span class = "latest-song-details">
+                                    <span class = "song-name color-white">Se Nota</span><br>
+                                    <span class = "date">aug 17, 2021</span>
+                                </span>
+                              </div>
+
+                            </div>
+                    </section>
+
+                    <!-- Latest Hindi Section -->
+
+                    <section id = "latest-hindi">
+
+                        <div class="section-heading">
+                            <span>Latest Hindi</span>
+                        </div>
+                        <div class = "latest-content display-flex">
+
+                           <div class = "latest-english-item">
+                               <img src = "Photos/latest-hindi1.webp">
+                               <span class = "latest-song-details">
+                                   <span class = "song-name color-white">Bad Boy X Bad Girl</span><br>
+                                   <span class = "date">aug 17, 2021</span>
+                               </span>
+                           </div>
+
+                           <div class = "latest-english-item">
+                              <img src = "Photos/latest-hindi2.webp">
+                              <span class = "latest-song-details">
+                                  <span class = "song-name color-white">Tere Liye</span><br>
+                                  <span class = "date">aug 17, 2021</span>
+                              </span>
+                          </div>
+
+                          <div class = "latest-english-item">
+                              <img src = "Photos/latest-hindi3.webp">
+                              <span class = "latest-song-details">
+                                  <span class = "song-name color-white">Dil Kisi Se</span><br>
+                                  <span class = "date">aug 17, 2021</span>
+                              </span>
+                          </div>
+
+                          <div class = "latest-english-item">
+                              <img src = "Photos/latest-hindi4.webp">
+                              <span class = "latest-song-details">
+                                  <span class = "song-name color-white">Kaanta Laga</span><br>
+                                  <span class = "date">aug 17, 2021</span>
+                              </span>
+                          </div>
+
+                          <div class = "latest-english-item">
+                              <img src = "Photos/latest-hindi5.webp">
+                              <span class = "latest-song-details">
+                                  <span class = "song-name color-white">Piya</span><br>
+                                  <span class = "date">aug 17, 2021</span>
+                              </span>
+                          </div>
+
+                        </div>
+
+                    </section>
+
+
+                </main>
+                       
+                <!-- Aside Section - Playlist -->
+
+                <aside id = "playlist" class = "color-white display-flex">
+                     <div id = "playlist-header" class = "display-flex">
+                         
+                         <span class="aside-heading color-white">My Playlist</span>
+
+                         <div id = "queue">
+                             <button type="button" name = "queue-btn" id = "queue-btn" class = "color-green">
+                                <span class="color-green">Queue</span> &nbsp;
+                                 <i class="fas fa-caret-down"></i>
+                             </button>
+
+                             <div id = "drop-content">
+                                <ul class = "drop-menu" >
+                                    <li><a href = "#">Playlists</a></li>
+                                    <hr>
+                                    <li><a href = "#">Favourite Songs</a></li>
+                                </ul>
+                               </div>
+                         </div>
+                     </div>
+                    
+
+                        <div id = "song-list" class = "display-flex">
+
+                            <br><br>
+                             
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>01</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-english-industry-baby.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "3" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Industry Baby</span><br>
+                                       <span class = "singer-name">Lil Nas X</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                    
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>02</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/blue.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "6" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Blue Ain't Your Color</span><br>
+                                       <span class = "singer-name">Home Free</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>03</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-english3.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "0" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Bum Bum Tam Tam</span><br>
+                                       <span class = "singer-name">J Balvin</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>04</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/jab tum.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "12" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Aaoge Jab Tum</span><br>
+                                       <span class = "singer-name">Ustad Rashid Khan</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>05</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/pyar ka nagma.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "13" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Ek Pyar Ka Nagma Hai</span><br>
+                                       <span class = "singer-name">Jagjit Singh</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>06</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi-ranjha.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "2" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Ranjha</span><br>
+                                       <span class = "singer-name">B Praak</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>07</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi1.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "9" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Bad Boy X Bad Girl</span><br>
+                                       <span class = "singer-name">Badshah</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>08</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi2.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "2" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Tere Liye</span><br>
+                                       <span class = "singer-name">Nishad patki</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>09</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi3.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "3" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Dil Kisi Se</span><br>
+                                       <span class = "singer-name">Arjun Kanungo</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>10</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi4.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "10" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Kaanta Laga</span><br>
+                                       <span class = "singer-name">Neha Kakkar</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>11</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-hindi5.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id ="4" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Piya</span><br>
+                                       <span class = "singer-name">Gagan Baderiya - Piya</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>12</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-release-image1.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "4" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Rataan Lambiyan</span><br>
+                                       <span class = "singer-name">Asees Kaur</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>13</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-release-image3.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "1" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Mann Bharryaa</span><br>
+                                       <span class = "singer-name">B Praak</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>14</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-release-image4.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "5" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">Rammo Rammo</span><br>
+                                       <span class = "singer-name">Udit Narayan</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                   </button>
+                                </div>
+
+                                <div class = "playlist-item display-flex">
+                                    <div class = "song-number">
+                                        <span>15</span>
+                                    </div>
+                                 <a href="#player" class="display-flex">
+                                    
+                                   <div class = "song-image">
+                                       <img src = "Photos/latest-english2.webp">
+                                       <div  class = "position-absolute display-flex play-icon">
+                                        <i id = "6" class="fas songItemPlay fa-play"></i>
+                                     </div>
+                                    </div>
+                                   <div class = "song-details">
+                                       <span class = "song-name">In Da Getto</span><br>
+                                       <span class = "singer-name">Skrillex - JOSE</span>
+                                   </div>
+                                   </a>
+                                   <button class ="like-btn">
+                                        <i  class="far fa-heart likeIt"></i>
+                                    
+                                   </button>
+                                </div>
+                        </div>
+
+                    
+                </aside>
+            </section>
+           
+            <!-- Bottom Player -->
+
+            <footer id = "player" class="display-flex">
+
+
+                <div id = "song-progress" class="color-white">
+                    <input type="range" name = "range" id = "myProgressBar" min = "0" max = "100" value = "0">
+                </div>
+
+               <div id = "player-content" class="display-flex">
+
+                  <div class = "player-song-details display-flex">
+                         
+                    <div class = "player-song-image">
+                        <img src="playing.gif" width="42px" alt="" id="gif">
+                    </div>
+                    
+                    <div >
+                    <span id = "masterSongName" class="song-name color-white">Blue Ain't Your Color</span>
+                    <br>
+                    <span id = "masterAuthorName" class="singer-name">Home Free</span>
+                    </div>
+                       
+                  </div>
+
+                  <div class = "player-controls display-flex">
+
+                    <div id = "player-drop-down" class="display-flex color-white">
+                        <a href="#">
+                         <i class="fas fa-chevron-circle-down"></i>
+                        </a>
+                     </div>
+
+                    <div class = "shuffle-btn color-gray icon">
+                            <i class="fas fa-random"></i>
+                    </div>
+
+                    <div class = "backward-btn color-gray icon">
+                            <i id = "backward" class="fas fa-step-backward"></i>
+                    </div>
+
+                    <div class = "pause-btn color-white display-flex icon">
+                        <i class="fas fa-play" id = "masterPlay"></i>
+                    </div>
+
+                    <div class = "forward-btn color-gray icon">
+                        <i id = "forward" class="fas fa-step-forward"></i>
+                    </div>
+
+                    <div class = "loop-btn color-gray icon">
+                            <i id = "reLoad" class="fas fa-redo"></i>
+                    </div>
+
+                  </div>
+
+                  <div class = "player-options display-flex">
+
+                    <div class = "song-duration color-gray">
+                        <span id = "currentTime">00</span>
+                        <span> / </span>
+                        <span id = "songDuration">00</span>
+                    </div>
+
+                    <div class = "volume-btn display-flex">
+                        <i id = "volumeIcon" class="fas fa-volume-up"></i>
+                        <div>
+                             <div id = "volume-bar">
+                                 <input id = "volumeSeek" type="range" min="0" max="100" value = "100" name = "volume" >
+                             </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class = "player-playlist-icon color-gray">
+                        <a href = "#">
+                        <i class="fas fa-list"></i>
+                        </a>
+                    </div>
+
+                    <div class = "full-screen-stretch color-gray">
+                        <a href="#">
+                        <i class="fas fa-arrows-alt-v"></i>
+                        </a>
+                    </div> -->
+
+                  </div>
+               </div>
+            </footer>
+
+            <script type = "text/javascript" src="major project.js"></script>
+    </body>
+</html>
